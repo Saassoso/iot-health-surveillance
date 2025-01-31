@@ -7,6 +7,7 @@ IoT-based real-time health monitoring system using ESP32, MQTT, and Raspberry Pi
 - `/arduino_code/` - Arduino scripts for data collection.
 - `/python_scripts/` - Python scripts for data processing and analytics.
 - `flowchart.json` - Flowchart representation of the system.
+- `/patient-visualization/` - React frontend.
 
 ## ⚡ Features
 - Real-time health data monitoring
@@ -14,6 +15,13 @@ IoT-based real-time health monitoring system using ESP32, MQTT, and Raspberry Pi
 
 
 ## 🚀 Installation
-### Requirements
+### Requirements for python code
 ```bash
 pip install 
+
+## 🚀 Running the React Interface
+Navigate to the frontend directory:
+```sh
+cd patient-visualization
+npm install
+npm run dev
