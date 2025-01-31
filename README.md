@@ -1,7 +1,7 @@
 # IoT Health Surveillance System
 
 ## 📌 Overview
-This project monitors and analyzes health data using IoT devices and provides real-time alerts.
+IoT-based real-time health monitoring system using ESP32, MQTT, and Raspberry Pi as a broker. Node-RED processes and displays SpO2, heart rate, and temperature data, storing it in Firebase for trend analysis and anomaly detection. A React interface provides dynamic visualizations.
 
 ## 📁 Project Structure
 - `/arduino_code/` - Arduino scripts for data collection.
@@ -11,9 +11,9 @@ This project monitors and analyzes health data using IoT devices and provides re
 ## ⚡ Features
 - Real-time health data monitoring
 - Alerts and notifications for anomalies
-- Secure data transmission
+
 
 ## 🚀 Installation
 ### Requirements
 ```bash
-pip install -r requirements.txt
+pip install 
